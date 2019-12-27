@@ -1,0 +1,8 @@
+{
+  "projectId": "wauqe2",
+  "baseUrl": "http://localhost:3000",
+  "video": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "requestTimeout": 15000
+}

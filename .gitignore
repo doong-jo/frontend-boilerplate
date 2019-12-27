@@ -1,0 +1,27 @@
+node_modules
+# Custom
+node_modules/
+dist/
+coverage/
+build/
+.env
+.env.*
+!.env.template
+*.env.json
+secrets.tar
+!secrets.tar.enc
+cypress.env.json
+
+# Default
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
+package-lock.json
+.eslintcache
+
+
+
