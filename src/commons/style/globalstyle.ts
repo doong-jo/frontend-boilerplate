@@ -22,6 +22,7 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     height: 100%;
+    padding: 0rem 5rem;
   }
   a, button {
     text-decoration: none;
@@ -29,31 +30,31 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1 {
-    ${theme('fontStyle.h3')}
+    ${theme('fontStyle.h1')}
   }
 
   h2 {
-    ${theme('fontStyle.h4')}
-  }
-
-  h2 {
-    ${theme('fontStyle.h5')}
+    ${theme('fontStyle.h2')}
   }
 
   h3 {
-    ${theme('fontStyle.subtitle1')}
+    ${theme('fontStyle.h3')}
   }
 
   h4 {
-    ${theme('fontStyle.subtitle2')}
+    ${theme('fontStyle.h4')}
   }
 
   h5 {
-    ${theme('fontStyle.body1')}
+    ${theme('fontStyle.h5')}
+  }
+
+  h6 {
+    ${theme('fontStyle.h6')}
   }
 
   p {
-    ${theme('fontStyle.body2')}
+    ${theme('fontStyle.body1')}
   }
 `;
 
