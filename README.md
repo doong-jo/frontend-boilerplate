@@ -1,6 +1,6 @@
-# frontend-workspace
+# frontend-boilerplate
 
-This repository is my frontend workspace. Feel free to use this.
+This repository is my frontend boilerplate. Feel free to use this.
 
 ## Stack
 
