@@ -15,10 +15,10 @@
     "eject": "react-scripts eject",
     "lint:tsc": "tsc --noEmit",
     "lint:eslint": "eslint . --cache --ext .ts,.tsx",
-    "lint:stylehint": "stylelint \"**/!(normalize.ts)*.{ts,css,scss}\"",
+    "lint:stylehint": "stylelint \"**/*.{ts,css,scss}\"",
     "lint": "npm-run-all --parallel -c lint:*",
     "fix:eslint": "eslint . --cache --fix --ext .ts,.tsx",
-    "fix:stylehint": "stylelint \"**/!(normalize.ts)*.{ts,css,scss}\" --fix",
+    "fix:stylehint": "stylelint \"**/*.{ts,css,scss}\" --fix",
     "fix": "npm-run-all --parallel -c fix:*",
     "precommit": "tsc --noEmit && lint-staged",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,scss,css,md}\""
