@@ -7,3 +7,4 @@ This repository is my frontend workspace. Feel free to use this.
 - Typescript
 - React, Styled-Component
 - Storybook, Cypress
+- Eslint, Stylelint, Commitlint
