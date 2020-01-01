@@ -12,6 +12,7 @@
     "cypress:record": "cypress run --record --parallel",
     "test": "react-scripts test --coverage --verbose --watchAll=false && yarn cypress",
     "test:watch": "react-scripts test --coverage --verbose",
+    "test:cypress": "start-server-and-test start http://localhost:3000 cypress",
     "eject": "react-scripts eject",
     "lint:tsc": "tsc --noEmit",
     "lint:eslint": "eslint . --cache --ext .ts,.tsx",
