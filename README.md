@@ -13,5 +13,6 @@ This repository is my frontend boilerplate. Feel free to use this.
 
 - Typescript
 - React (CRA), Styled-Component
-- Storybook, Cypress
+- Storybook
+- Jest, Enzyme, Cypress
 - Eslint, Stylelint, Commitlint
