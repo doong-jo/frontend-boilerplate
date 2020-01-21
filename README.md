@@ -14,7 +14,14 @@ This repository is my frontend boilerplate. Feel free to use this.
 ## Stack
 
 - Typescript
-- React (CRA), Styled-Component
+- React (based CRA), styled-component
 - Storybook
-- Jest, Enzyme, Cypress
-- Eslint, Stylelint, Commitlint
+- Jest, react-testing-library, Cypress
+- Eslint, Stylelint, Commitlint, Prettier, Editorconfig
+
+## Library
+- [http-status](https://www.npmjs.com/package/http-status)
+- [immer](https://www.npmjs.com/package/immer)
+- [react-icons](https://www.npmjs.com/package/react-icons)
+- [shortid](https://www.npmjs.com/package/shortid)
+- [styled-tools](https://www.npmjs.com/package/styled-tools)
