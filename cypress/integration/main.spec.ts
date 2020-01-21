@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('main', () => {
+context('Main page', () => {
   it('visit successfully', () => {
     cy.visit('/');
   });
