@@ -2,3 +2,5 @@ node_modules/
 package.json
 .vscode/
 dist/
+build/
+coverage/
