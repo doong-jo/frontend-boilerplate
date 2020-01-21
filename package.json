@@ -10,12 +10,14 @@
     "cypress": "cypress run",
     "cypress:open": "cypress open",
     "cypress:record": "cypress run --record --parallel",
-    "test": "react-scripts test --coverage --verbose --watchAll=false && yarn cypress",
-    "test:watch": "react-scripts test --coverage --verbose",
+    "test": "react-scripts test --coverage --verbose --env=jsdom --watchAll=false && yarn test:cypress",
+    "test:jest": "react-scripts test --coverage --verbose --watchAll=false --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom --coverage --verbose --watchAll=true",
+    "test:cypress": "start-server-and-test start http://localhost:3000 cypress",
     "eject": "react-scripts eject",
     "lint:tsc": "tsc --noEmit",
     "lint:eslint": "eslint . --cache --ext .ts,.tsx",
-    "lint:stylehint": "stylelint \"**/*.{ts,css,scss}\"",
+    "lint:stylehint": "stylelint \"src/**/*.{ts,css,scss}\"",
     "lint": "npm-run-all --parallel -c lint:*",
     "fix:eslint": "eslint . --cache --fix --ext .ts,.tsx",
     "fix:stylehint": "stylelint \"**/*.{ts,css,scss}\" --fix",
@@ -49,8 +51,8 @@
     "@storybook/addon-viewport": "^5.2.5",
     "@storybook/addons": "^5.2.6",
     "@storybook/react": "^5.2.6",
-    "@types/enzyme": "^3.10.3",
-    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@testing-library/jest-dom": "^5.0.0",
+    "@testing-library/react": "^9.4.0",
     "@types/google-map-react": "^1.1.3",
     "@types/http-status": "^1.1.2",
     "@types/jest": "^24.0.23",
@@ -67,9 +69,6 @@
     "core-js": "^3.6.1",
     "cypress": "3.8.0",
     "dotenv-webpack": "^1.7.0",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1",
-    "enzyme-to-json": "^3.4.3",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.5.0",
@@ -107,9 +106,6 @@
       "json",
       "lcov",
       "text"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
     ]
   },
   "browserslist": {
